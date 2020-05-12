@@ -20,7 +20,7 @@ for guesses in range(6):
         break
 
 if guess == secretNumber:
-    print("Woah", name, "You Guessed it Right", "You Guessed in", guesses, "times")
+    print("Woah,", name, "You Guessed it Right,", "You Guessed it in", guesses, "times")
 
 else:
     print("No the Right Number was ", str(secretNumber))
