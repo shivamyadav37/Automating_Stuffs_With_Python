@@ -1,4 +1,4 @@
-# Tried to make a Guessing a Number Game
+# Tried to make a Guessing a Number Game that runs on CLI
 
 import random
 
