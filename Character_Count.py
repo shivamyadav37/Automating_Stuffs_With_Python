@@ -1,6 +1,7 @@
 # This Program Counts Number of Characters Passed in 'message'(String) Variable
 
-message = input() #you can have your own custom message
+print("Enter The Message/String Value")
+message = input()
 count = {}
 
 for character in message:
