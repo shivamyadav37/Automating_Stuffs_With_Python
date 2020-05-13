@@ -5,6 +5,7 @@ messageString = "Hello Alfred , Please Park the Batmobile , and get the Batcopte
 
 batRegex = re.compile(r'Bat(man|mobile|copter)')
 
-mo = batRegex.search(messageString)
+mo = batRegex.findall(messageString)
 
-print("Found", mo.group())
+print("Found :", mo)
+
