@@ -2,7 +2,7 @@
 
 print("Enter The Message/String Value:")
 # You can enter your Custom Message
-message = input()
+message = input().lower()
 count = {}
 
 for character in message:
