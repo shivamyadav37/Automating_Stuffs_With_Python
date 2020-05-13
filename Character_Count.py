@@ -1,4 +1,5 @@
 # This Program Counts Number of Characters Passed in 'message'(String) Variable
+import pprint
 
 print("Enter The Message/String Value:")
 # You can enter your Custom Message
@@ -9,4 +10,4 @@ for character in message:
     count.setdefault(character, 0)
     count[character] = count[character] + 1
 
-print(count)
+pprint.pprint(count)
