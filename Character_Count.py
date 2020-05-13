@@ -1,6 +1,6 @@
 # This Program Counts Number of Characters Passed in 'message'(String) Variable
 
-print("Enter The Message/String Value")
+print("Enter The Message/String Value:")
 message = input()
 count = {}
 
